@@ -1,0 +1,166 @@
+cd D:\ROGE_NATION\NDEJJE_UNIVERSITY\HostelMappingMaven; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.geo2102.HostelMapping \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+-------------------< com.geo2102:Hostel-Assignment >--------------------
+Building Hostel-Assignment 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ Hostel-Assignment ---
+skip non existing resourceDirectory D:\ROGE_NATION\NDEJJE_UNIVERSITY\HostelMappingMaven\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ Hostel-Assignment ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug target 17] to target\classes
+location of system modules is not set in conjunction with -source 17
+  not setting the location of system modules may lead to class files that cannot run on JDK 17
+    --release 17 is recommended instead of -source 17 -target 17 because it sets the location of system modules automatically
+
+--- exec:3.6.3:exec (default-cli) @ Hostel-Assignment ---
+----------------------------------------
+Group: 6
+Hostel ID: H24
+Hostel Name: Legacy Hostel
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 800,000
+Occupancy Status: Occupied
+Latitude: 0.60398557
+Longitude: 32.476222
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 6
+Hostel ID: H25
+Hostel Name: Divine Hostel
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 700,000
+Occupancy Status: Occupied
+Latitude: 0.60363355
+Longitude: 32.474824
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 6
+Hostel ID: H26
+Hostel Name: Vanessa Hostel
+Accommodation Type: Not self-contained (Single)
+Rental Price: UGX 500,000
+Occupancy Status: Occupied
+Latitude: 0.60272031
+Longitude: 32.475463
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 6
+Hostel ID: H27
+Hostel Name: Mwega Hostel
+Accommodation Type: Not self-contained (Single)
+Rental Price: UGX 500,000
+Occupancy Status: Partially Occupied
+Latitude: 0.60115667
+Longitude: 32.474514
+isOccupied: false
+Report: Not Fully Occupied
+----------------------------------------
+Group: 7
+Hostel ID: H28
+Hostel Name: Ndagire Hostel
+Accommodation Type: Not self-contained (Single)
+Rental Price: UGX 650,000
+Occupancy Status: Occupied
+Latitude: 0.59956501
+Longitude: 32.474724
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 7
+Hostel ID: H29
+Hostel Name: Lisan Hostel
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 500,000
+Occupancy Status: Occupied
+Latitude: 0.59909215
+Longitude: 32.474489
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 7
+Hostel ID: H30
+Hostel Name: Moze Hostel (Twins Guest House)
+Accommodation Type: Self-contained (Double)
+Rental Price: UGX 1,000,000
+Occupancy Status: Occupied
+Latitude: 0.59838342
+Longitude: 32.47535
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 7
+Hostel ID: H31
+Hostel Name: Peaches
+Accommodation Type: Half self-contained (Single)
+Rental Price: UGX 800,000
+Occupancy Status: Partially Occupied
+Latitude: 0.59806894
+Longitude: 32.476105
+isOccupied: false
+Report: Not Fully Occupied
+----------------------------------------
+Group: 8
+Hostel ID: H32
+Hostel Name: Duncans Hostel
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 500,000
+Occupancy Status: Occupied
+Latitude: 0.6003078
+Longitude: 32.473742
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 8
+Hostel ID: H33
+Hostel Name: Badlands
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 700,000
+Occupancy Status: Occupied
+Latitude: 0.60133637
+Longitude: 32.473526
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 8
+Hostel ID: H34
+Hostel Name: Orange Hostel
+Accommodation Type: Self-contained (Single)
+Rental Price: UGX 700,000
+Occupancy Status: Occupied
+Latitude: 0.605106
+Longitude: 32.474496
+isOccupied: true
+Report: Fully Occupied
+----------------------------------------
+Group: 8
+Hostel ID: H35
+Hostel Name: Ministers' Village
+Accommodation Type: Half self-contained (Double)
+Rental Price: UGX 700,000
+Occupancy Status: Occupied
+Latitude: 0.60654727
+Longitude: 32.47431
+isOccupied: true
+Report: Fully Occupied
+
+========================================
+HOSTEL MAPPING DATASET SUMMARY
+========================================
+Total Hostels: 12
+Average Rental Price: UGX 670,833.33
+Fully Occupied Hostels: 10
+Not Fully Occupied Hostels: 2
+========================================
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.649 s
+Finished at: 2026-09-30T15:13:54+03:00
+------------------------------------------------------------------------
